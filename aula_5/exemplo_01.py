@@ -1,7 +1,7 @@
 import streamlit as st
 
 ## -- Textos -- ##
-st.title('Elementos Textuais')
+st.title('Elemento Textuais')
 
 # Title
 st.title('Olá isto é um título!')
@@ -25,6 +25,10 @@ st.markdown("""
     - **negrito**
     - *itálico*           
 """)
+
+code = '''def hello():
+    print("Hello, Streamlit!")'''
+st.code(code, language='python')
 
 
 

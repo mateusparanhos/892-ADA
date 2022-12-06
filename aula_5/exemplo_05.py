@@ -12,10 +12,10 @@ da nossa aplicação.
 """)
 
 
-# sidebar
-# st.sidebar.title('Sidebar')
-# st.sidebar.button('button')
-# st.sidebar.checkbox('checkbox')
+
+st.sidebar.title('Sidebar')
+st.sidebar.button('button')
+st.sidebar.checkbox('checkbox')
 
 with st.sidebar:
     st.title('Sidebar com with')
